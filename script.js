@@ -1,4 +1,3 @@
-
 function NewYearCounter () {
     const NewYearsDay = new Date ("January 1, 2024 00:00"); 
     const now = new Date ();

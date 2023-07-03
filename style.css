@@ -1,5 +1,5 @@
 body {
-    background-image: url(bg.jpg);
+    background-image: url(pictures/bg.jpg);
     background-size: cover;
     background-color: blanchedalmond;
     background-position: bottom;
@@ -98,7 +98,7 @@ body {
     border-radius: 100%;
     position: absolute;
     border: 5px outset silver;
-    background-image: url(2015.jpg);
+    background-image: url(pictures/2015.jpg);
     background-size: cover;
     padding: 30px;
     
@@ -142,88 +142,83 @@ body {
 }
 
 .fifteen {
-    background-image: url(decoratingthetree.jpeg);
-    
-
-
+    background-image: url(pictures/decoratingthetree.jpeg);
 }  
 
 
 .sixteen {
-    background-image: url(lettertosanta.jpeg);
+    background-image: url(pictures/lettertosanta.jpeg);
 }
 
 .seventeen {
-    background-image: url(achievments.jpeg);
+    background-image: url(pictures/achievments.jpeg);
 }
 
 .eighteen {
-    background-image: url(badmemories.jpeg);
+    background-image: url(pictures/badmemories.jpeg);
 }
 
 .nineteen {
-    background-image: url(christmascookies.jpeg);
+    background-image: url(pictures/christmascookies.jpeg);
 
 }
 
 .twenty {
-    background-image: url(christmasmood.jpeg);background-size: cover;
+    background-image: url(pictures/christmasmood.jpeg);
 }
 
 .twenty-one {
-    background-image: url(christmastoy.jpeg);
+    background-image: url(pictures/christmastoy.jpeg);
 }
 
 .twenty-two {
-    background-image: url(christmasstories.jpeg);
+    background-image: url(pictures/christmasstories.jpeg);
 }
 
 .twenty-three {
-    background-image: url(christmasnight.jpeg);
+    background-image: url(pictures/christmasnight.jpeg);
 }
 
 .twenty-four {
-    background-image: url(preparingthepresents.jpeg);
+    background-image: url(pictures/preparingthepresents.jpeg);
 }
 
 .twenty-five {
-    background-image: url(merrychristmas.jpeg);
+    background-image: url(pictures/merrychristmas.jpeg);
 }
 
 .twenty-six {
-    background-image: url(dayinsnow.jpeg);
+    background-image: url(pictures/dayinsnow.jpeg);
 }
 
 .twenty-seven {
-    background-image: url(thankful.jpeg);
+    background-image: url(pictures/thankful.jpeg);
 }
 
 .twenty-eight {
-    background-image: url(snowday.jpeg);
+    background-image: url(pictures/snowday.jpeg);
 }
 
 .twenty-nine {
-    background-image: url(nearthetree.jpeg);
+    background-image: url(pictures/nearthetree.jpeg);
 }
 
 .thirty {
-    background-image: url(goodmemories.jpeg);
+    background-image: url(pictures/goodmemories.jpeg);
 }
 
-
 .thirty-one {
-    background-image: url(wishes.jpeg);
+    background-image: url(pictures/wishes.jpeg);
 }
 
 .one {
-    background-image: url(congrats.jpeg);
+    background-image: url(pictures/congrats.jpeg);
     
 }
 
 .jan-one {
     width: 147px;
 }
-
 
 
 
