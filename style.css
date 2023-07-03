@@ -1,0 +1,293 @@
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-color: blanchedalmond;
+    background-position: bottom;
+    font-family: 'Arima Madurai', cursive;
+    height: 260vh;
+    background-repeat: no-repeat;
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn {
+    opacity: 0.8;
+    height: 70px;
+    width: 60px;
+    margin-top: 50px;
+    border-radius: 100px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 15px;
+    padding:  6px 0 ;
+}
+
+.title {
+    background-color: rgba(250, 235, 215, 0.705);
+    font-size: 60px;
+    color: rgb(187, 26, 26);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.705);
+    padding: 30px;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+.days, .hours, .minutes, .seconds {
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(187, 26, 26);
+
+}
+.text {
+    font-size: 20px;
+    color: rgb(187, 26, 26);
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.advent {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    
+}
+
+.card {
+    margin: 60px;
+    height: 130px;
+    width: 130px;
+}
+
+.outer{
+    display: block;
+    background-size: cover;
+    background-position: top;
+    border-radius: 100%;
+    position: absolute;
+    border: 5px outset silver;
+    background-image: url(2015.jpg);
+    background-size: cover;
+    padding: 30px;
+    
+}
+
+.date {
+    font-size: 25px; 
+    color:rgb(247, 223, 223);
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+}
+
+.inner {
+    display: none;
+    height: 130px;
+    width: 130px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 100%;
+    border: 5px outset silver;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.adventText {
+    font-weight: bolder;
+    font-size: 15px;
+    color: rgba(165, 9, 9, 0.67);
+    margin-top: 110px;
+    background-color: rgba(250, 235, 215, 0.705);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    width: 150px;
+}
+
+.fifteen {
+    background-image: url(decoratingthetree.jpeg);
+    
+
+
+}  
+
+
+.sixteen {
+    background-image: url(lettertosanta.jpeg);
+}
+
+.seventeen {
+    background-image: url(achievments.jpeg);
+}
+
+.eighteen {
+    background-image: url(badmemories.jpeg);
+}
+
+.nineteen {
+    background-image: url(christmascookies.jpeg);
+
+}
+
+.twenty {
+    background-image: url(christmasmood.jpeg);background-size: cover;
+}
+
+.twenty-one {
+    background-image: url(christmastoy.jpeg);
+}
+
+.twenty-two {
+    background-image: url(christmasstories.jpeg);
+}
+
+.twenty-three {
+    background-image: url(christmasnight.jpeg);
+}
+
+.twenty-four {
+    background-image: url(preparingthepresents.jpeg);
+}
+
+.twenty-five {
+    background-image: url(merrychristmas.jpeg);
+}
+
+.twenty-six {
+    background-image: url(dayinsnow.jpeg);
+}
+
+.twenty-seven {
+    background-image: url(thankful.jpeg);
+}
+
+.twenty-eight {
+    background-image: url(snowday.jpeg);
+}
+
+.twenty-nine {
+    background-image: url(nearthetree.jpeg);
+}
+
+.thirty {
+    background-image: url(goodmemories.jpeg);
+}
+
+
+.thirty-one {
+    background-image: url(wishes.jpeg);
+}
+
+.one {
+    background-image: url(congrats.jpeg);
+    
+}
+
+.jan-one {
+    width: 147px;
+}
+
+
+
+
+@media all and (max-width:850px) {
+    body {
+        height: 170vh;
+        background-position: left;
+        background-repeat: repeat;
+    }
+    .advent {
+        justify-content: space-around;
+  }
+    .btn {
+
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    
+    .title  {
+        margin-top: 40px;
+        width: 80%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .block  {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+
+@media all and (max-width:850px) {
+    body {
+        height: 170vh;
+        background-position: left;
+        background-repeat: repeat;
+    }
+
+
+    .title  {
+        margin-top: 80px;
+    }
+
+
+
+    .block  {
+        height: 30px;
+        width: 30px;
+
+    }
+
+    .days, .hours, .minutes, .seconds {
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+}
